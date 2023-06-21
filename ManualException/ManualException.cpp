@@ -9,11 +9,11 @@ int main() {
 	}
 	catch (int a) {
 		//blok ini akan dieksekusi
-		cout << "Pengecualian akan dieksekusi" << endl;
+		cout << "Pengecualian akan Dieksekusi" << endl;
 	}
 	catch (...) {
 		//jila selain integer maka blok ini akan dieksekusi
-		cout << "default pengecualian dieksekusi" << endl;
+		cout << "Default Pengecualian Dieksekusi" << endl;
 	}
 	return 0;
 }
